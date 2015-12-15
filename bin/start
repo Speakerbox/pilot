@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Starting pilot..."
+node ./index.js
