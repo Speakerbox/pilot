@@ -4,5 +4,4 @@
 require('./config');
 
 let server = require('./server');
-
 server.init();
