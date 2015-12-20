@@ -2,7 +2,7 @@
 
 let ioClient = require('socket.io-client');
 let nconf = require('nconf');
-let token = 'pEfEMNfdcXUQMFkcDveUuCVaJzvhvE';
+let token = nconf.get('TOKEN');
 let socketUrl = nconf.get('socket:url');
 let socketOptions = {
   'reconnection': false,
